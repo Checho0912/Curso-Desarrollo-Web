@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import java.io.Serializable;
 import lombok.Data;
 
-
 @Data​
 @Entity​
 @Table(name="producto")
@@ -29,7 +28,6 @@ public class Producto implements Serializable {
 
     public Producto() {        
     }
-
 
     public Producto(String descripcion, String detalle, double precio, int existencias, String imagen, boolean activo) {
         this.descripcion = descripcion;
